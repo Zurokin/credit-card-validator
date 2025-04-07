@@ -19,7 +19,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: "licenses.txt", to: "" },
-        { from: "/images", to: "images" },
+        { from: "images", to: "" },
       ],
     }),
   ],

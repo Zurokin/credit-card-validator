@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --progress",
     "start": "webpack serve --open --mode development",
     "test": "jest",
     "lint": "eslint ./src"
