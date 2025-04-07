@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
+
+# Coverage from tests
+coverage/
+
+# IDE configs
+.vscode/
+.idea/
+
+# AppVeyor
+appveyor.yml
+
+# Optional: Ignore test artifacts
+cypress/videos/
+cypress/screenshots/
