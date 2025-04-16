@@ -1,7 +1,6 @@
-import "../styles/style.css"; // если есть стили
-import getCardType from "./cardType"; // если у тебя есть логика для определения типа карты
+import "../styles/style.css";
+import getCardType from "./cardType";
 
-// Инициализация каких-либо обработчиков событий или взаимодействий
 document.querySelector("#submit-button").addEventListener("click", () => {
   const cardNumber = document.querySelector("#card-number").value;
   const cardType = getCardType(cardNumber);
